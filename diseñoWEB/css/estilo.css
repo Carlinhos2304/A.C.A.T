@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+header{
+    background-color: #0833a2;
+}
+
+.carrusel{
+    
+
+}
+.nosotros, .servicios
+{
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    line-height: 2em;
+}
+
+.carousel-caption{
+    font-size: 2em;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc7bf26);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #2c3e50, #bdc7bf26);
+
+    position: absolute; 
+    right: 15%;
+    top: 125px; 
+   
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    bottom: auto;
+}
+.carousel-caption h5{
+    font-size: 3em;
+    
+}
+
+
+/* CSS FOOTER*/
+.footer {
+    background-color: #0833a2;
+    color: #fff;
+    padding: 20px 20px; /* Ajusta el padding según lo que necesites */
+    display: flex;
+    align-items: center;
+    height: 100px; /* Ajusta la altura según lo que necesites */
+    height: 200px;
+    margin-top: 100px;
+}
+
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    width: 200%;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    width: 110px; /* Ajusta el tamaño de tu logo según sea necesario */
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+    margin-right: 20px;
+    text-align: center;
+    margin-left: -11px;
+}
+.footer-copyright {
+    font-size: 0.8em;
+}
+/* FIN CSS FOOTER*/
+
+
+/* CSS TARJETAS DE INFORMACION*/
+
+.info-imagen h2 {
+    /* Estilos regulares del título de las tarjetas */
+    color: #0833a2;
+    font-size: 2.5rem;
+    font-weight: 650;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* Agrega una sombra al texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    /* Añade una transición suave */
+    transition: color 0.3s ease;
+}
+
+.info-imagen h2:hover {
+    /* Cambia el color del texto en el hover */
+    color: #3f6b94; /* Color amarillo para el hover */
+}
+
+/* CSS TARJETAS DE INFORMACION */
+.info-section-nuevo {
+    padding: 50px 0;
+    background-color: #f8f8f8; /* Cambia el color de fondo  */
+    margin-top: 200px;
+}
+
+.info-imagen img {
+    
+    border-radius: 10px;
+    margin-left: 300px;
+    transition: transform 0.3s ease;
+}
+
+
+@media (max-width: 767px) {
+    .info-imagen img {
+        margin-left: 100px;
+        margin-top: 30px;
+        width: 60%;
+    }
+}
+
+.info-imagen p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 410;
+}
